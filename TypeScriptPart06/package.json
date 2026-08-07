@@ -1,0 +1,21 @@
+{
+  "name": "part-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prod": "nodemon dist/app/class-eight.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/app/class-eight.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
